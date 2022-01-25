@@ -131,10 +131,7 @@ def buy_coin(price):
 
 def main():
     #eth:
-    hourly = 'C:\\Users\\rober\\OneDrive\\Desktop\\eth\\ETH_1H.csv' #price hourly
-    minute = 'C:\\Users\\rober\\OneDrive\\Desktop\\eth\\ETH_1min.csv' #price every minute
-    daily =  'C:\\Users\\rober\\OneDrive\\Desktop\\eth\\ETH_day.csv' #price daily
-
+    hourly = 'ETH_1H.csv' #price hourly
     file_path = f"{hourly}"
     
     prices = take_in_file(file_path) #gets closing prices
